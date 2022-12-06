@@ -24,7 +24,7 @@ public class NumberQuessingGame {
       guess = scanner.nextInt();
 
       if (guess == random) {
-        System.out.println("Great! You guess a number in " + i + " trials and you had " + trials);
+        System.out.println("Great! You guess a number in " + (i + 1) + " trials and you had " + trials);
         break;
       } else if (guess < random) {
         System.out.println("The number is greater than " + guess);
